@@ -1,5 +1,18 @@
 # Changelog
 
+## 2.1.0 [2026-01-16]
+
+- Fix `composer.json`
+- Fix `libin.json`
+
+### PHP < 8.6
+- Added function `clamp` : Returns the value clamped between min and max (nearest bound if out of range). Throws ValueError on invalid args (NAN, min > max).
+
+### *phpbcl Examples*
+- Added example file `86_clamp.php` : Returns the value clamped between min and max (nearest bound if out of range).
+
+---
+
 ## 2.0.5 [2025-04-27]
 
 - Fix `composer.json`
@@ -9,11 +22,11 @@
 ## 2.0.4 [2025-04-27]
 
 ### PHP < 8.5
-- Added function `array_first.php` : Returns the first value of a given array.
-- Added function `array_last.php` : Returns the last value of a given array.
-- Added function `locale_is_right_to_left.php` : Returns whether the given $locale has an RTL script.
-- Added function `get_error_handler.php` :  Returns the currently set error handler, or null if none is set.
-- Added function `get_exception_handler.php` : Returns the currently set exception handler, or null if is none set.
+- Added function `array_first` : Returns the first value of a given array.
+- Added function `array_last` : Returns the last value of a given array.
+- Added function `locale_is_right_to_left` : Returns whether the given $locale has an RTL script.
+- Added function `get_error_handler` :  Returns the currently set error handler, or null if none is set.
+- Added function `get_exception_handler` : Returns the currently set exception handler, or null if is none set.
 
 ### PHP < 8.3
 - Fixed function `mb_str_pad` for use in PHP >= 5.6.40

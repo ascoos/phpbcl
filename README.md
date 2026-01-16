@@ -2,15 +2,11 @@
 
 # PHP Backwards Compatibility Library (phpBCL)
 
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/alexsoft-software/phpbcl/total?color=%230E80C0) 
-![GitHub Release](https://img.shields.io/github/v/release/alexsoft-software/phpbcl) 
-![GitHub Release Date](https://img.shields.io/github/release-date/alexsoft-software/phpbcl?color=%230E80C0)
-![GitHub repo size](https://img.shields.io/github/repo-size/alexsoft-software/phpbcl) 
-[![Ascoos Web Extended Studio - total lines](https://tokei.rs/b1/github/alexsoft-software/phpbcl?category=lines)](https://github.com/alexsoft-software/phpbcl)
-[![Ascoos Web Extended Studio - source code lines](https://tokei.rs/b1/github/alexsoft-software/phpbcl?category=code)](https://github.com/alexsoft-software/phpbcl) 
-[![Ascoos Web Extended Studio - files in repository](https://tokei.rs/b1/github/alexsoft-software/phpbcl?category=files)](https://github.com/alexsoft-software/phpbcl)
-
-
+![PHP](https://img.shields.io/badge/5.6+-blue?style=for-the-badge&label=PHP&labelColor=041f60&color=034f84)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/ascoos/phpbcl/total?style=for-the-badge&color=%230E80C0) 
+![GitHub Release](https://img.shields.io/github/v/release/ascoos/phpbcl?style=for-the-badge) 
+![GitHub Release Date](https://img.shields.io/github/release-date/ascoos/phpbcl?style=for-the-badge&color=%230E80C0)
+![GitHub repo size](https://img.shields.io/github/repo-size/ascoos/phpbcl?style=for-the-badge) 
 
 ## Description
 
@@ -23,10 +19,10 @@ A main script checks the current PHP version and loads that implement the functi
 ***
 
 ### SOURCEFORGE
-[![Download phpBCL](https://img.shields.io/sourceforge/dt/phpbcl.svg)](https://sourceforge.net/projects/phpbcl/files/latest/download)
-[![Download phpBCL](https://img.shields.io/sourceforge/dm/phpbcl.svg)](https://sourceforge.net/projects/phpbcl/files/latest/download)
-[![Download phpBCL](https://img.shields.io/sourceforge/dw/phpbcl.svg)](https://sourceforge.net/projects/phpbcl/files/latest/download)
-[![Download phpBCL](https://img.shields.io/sourceforge/dd/phpbcl.svg)](https://sourceforge.net/projects/phpbcl/files/latest/download)
+[![Download phpBCL](https://img.shields.io/sourceforge/dt/phpbcl.svg?style=for-the-badge)](https://sourceforge.net/projects/phpbcl/files/latest/download)
+[![Download phpBCL](https://img.shields.io/sourceforge/dm/phpbcl.svg?style=for-the-badge)](https://sourceforge.net/projects/phpbcl/files/latest/download)
+[![Download phpBCL](https://img.shields.io/sourceforge/dw/phpbcl.svg?style=for-the-badge)](https://sourceforge.net/projects/phpbcl/files/latest/download)
+[![Download phpBCL](https://img.shields.io/sourceforge/dd/phpbcl.svg?style=for-the-badge)](https://sourceforge.net/projects/phpbcl/files/latest/download)
 
 ***
 
@@ -40,26 +36,25 @@ A main script checks the current PHP version and loads that implement the functi
 
 This is an open source project, open to anyone. 
 
-Contributions are welcome [github](https://github.com/alexsoft-software/phpbcl)
+Contributions are welcome [github](https://github.com/ascoos/phpbcl)
 
 
 ## Feedback
 
-Please send any feedback or suggestions to [@ascoos](https://twitter.com/ascoos) (Twitter) or [create an issue](https://github.com/alexsoft-software/phpbcl/issues) on GitHub.
+Please send any feedback or suggestions to [@ascoos](https://twitter.com/ascoos) (Twitter) or [create an issue](https://github.com/ascoos/phpbcl/issues) on GitHub.
 
 ## License
 
-[![AGL-F](https://img.shields.io/badge/License-AGLF-blue.svg)](http://docs.ascoos.com/lics/ascoos/AGL-F.html)
+[![AGL-F](https://img.shields.io/badge/License-AGLF-blue.svg?style=for-the-badge&labelColor=%234e555b&color=006400)](http://docs.ascoos.com/lics/ascoos/AGL-F.html)
 
 ***
 
 ## Download
 
-[![OFFICIAL ASCOOS DOWNLOAD SITE](https://img.shields.io/website?url=https://dl.ascoos.com/pub/phpBCL)](https://dl.ascoos.com/pub/phpBCL/phpBCL-latest.zip) 
-[![PHP Classes](https://img.shields.io/badge/GitHub-phpBCL-blue.svg)](https://github.com/alexsoft-software/phpbcl/releases) 
-[![PHP Classes](https://img.shields.io/badge/php-classes-blue.svg)](https://www.phpclasses.org/package/12926.html) 
-[![Sourceforge phpBCL](https://img.shields.io/badge/SourceForge-phpBCL-blue.svg)](https://sourceforge.net/projects/phpbcl/files/latest/download)
-
+[![OFFICIAL ASCOOS DOWNLOAD SITE](https://img.shields.io/website?url=https://dl.ascoos.com/pub/phpBCL&style=for-the-badge&labelColor=%234e555b&color=006400)](https://dl.ascoos.com/pub/phpBCL/phpBCL-latest.zip) 
+[![PHP Classes](https://img.shields.io/badge/GitHub-phpBCL-blue.svg?style=for-the-badge&labelColor=%234e555b&color=873260)](https://github.com/ascoos/phpbcl/releases) 
+[![PHP Classes](https://img.shields.io/badge/php-classes-blue.svg?style=for-the-badge&labelColor=%234e555b&color=873260)](https://www.phpclasses.org/package/12926.html) 
+[![Sourceforge phpBCL](https://img.shields.io/badge/SourceForge-phpBCL-blue.svg?style=for-the-badge&labelColor=%234e555b&color=873260)](https://sourceforge.net/projects/phpbcl/files/latest/download)
 
 ***
 
@@ -71,7 +66,7 @@ Please send any feedback or suggestions to [@ascoos](https://twitter.com/ascoos)
 
 ```php
 $path = '[YOUR SITE PATH]';
-include $path . '/phpBCL/autoload.php';
+include $path . '/phpbcl/autoload.php';
 ```
 
 <br>
@@ -130,7 +125,7 @@ This means that from the PHP version that refers and to newer versions, without 
 | + | >= 8.0.0  | 1.0.0  | Function  | `each`                  | Return the current key and value pair from an array and advance the array cursor.
 
 
-## VERSIONING FILES  [compat_php43x.php - compat_php85x.php]
+## VERSIONING FILES  [compat_php43x.php - compat_php86x.php]
 
 The contents of version-based files mean that since added to a specific PHP version, without using `phpBCL`, you will not be able to use them in older versions.
 
@@ -138,6 +133,7 @@ The contents of version-based files mean that since added to a specific PHP vers
 
 | A |    PHP   | phpBCL |   TYPE    |          NAME           |                DESCRIPTION
 |---|----------|--------|-----------|-------------------------|-----------------------------------------
+| + | < 8.6.0  | 2.1.0  | Function  | `clamp`                 | Returns the value clamped between min and max (nearest bound if out of range). Throws ValueError on invalid args (NAN, min > max). |
 | + | < 8.5.0  | 2.0.4  | Function  | `array_first.php`       | Returns the first value of a given array.
 | + | < 8.5.0  | 2.0.4  | Function  | `array_last.php`        | Returns the last value of a given array.
 | + | < 8.5.0  | 2.0.4  | Function  | `locale_is_right_to_left.php` | Returns whether the given $locale has an RTL script.

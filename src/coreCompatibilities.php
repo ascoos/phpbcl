@@ -1,29 +1,38 @@
 <?php
 /**
- *   __ _  ___  ___ ___   ___   ___     ____ _ __ ___   ___
- *  / _` |/  / / __/ _ \ / _ \ /  /    / __/| '_ ` _ \ /  /
- * | (_| |\  \| (_| (_) | (_) |\  \   | (__ | | | | | |\  \
- *  \__,_|/__/ \___\___/ \___/ /__/    \___\|_| |_| |_|/__/
- * 
- * 
- *************************************************************************************
- * @ASCOOS-NAME        : ASCOOS CMS 24'                                              *
- * @ASCOOS-VERSION     : 24.0.0                                                      *
- * @ASCOOS-CATEGORY    : Kernel (Frontend and Administration Side)                   *
- * @ASCOOS-CREATOR     : Drogidis Christos                                           *
- * @ASCOOS-SITE        : www.ascoos.com                                              *
- * @ASCOOS-LICENSE     : [Commercial] http://docs.ascoos.com/lics/ascoos/AGL-F.html  *
- * @ASCOOS-COPYRIGHT   : Copyright (c) 2007 - 2023, AlexSoft Software.               *
- *************************************************************************************
+ *   __ _  ___  ___ ___   ___   ___     ___   ___
+ *  / _` |/  / / __/ _ \ / _ \ /  /    / _ \ /  /
+ * | (_| |\  \| (_| (_) | (_) |\  \   | (_) |\  \
+ *  \__,_|/__/ \___\___/ \___/ /__/    \___/ /__/
+ *  
+ **************************************************************************************
+ * @ASCOOS-NAME        	: ASCOOS OS                                                   *
+ * @ASCOOS-VERSION     	: 1.0.0                                                       *
+ * @ASCOOS-CATEGORY    	: Web OS                                                      *
+ * @ASCOOS-DESCRIPTION  : A Web 5.0 Kernel for decentralized web and IoT applications *
+ * @ASCOOS-CREATOR     	: Drogidis Christos                                           *
+ * @ASCOOS-SITE        	: www.ascoos.com                                              *
+ * @ASCOOS-BUGS         : https://issues.ascoos.com                                   *
+ * @ASCOOS-SUPPORT      : support@ascoos.com                                          *
+ * @ASCOOS-LICENSE     	: [Commercial] http://docs.ascoos.com/lics/ascoos/AGL.html    *
+ * @ASCOOS-COPYRIGHT   	: Copyright (c) 2007 - 2026, AlexSoft Software.               *
+ **************************************************************************************
  *
- * @package            : ASCOOS CMS - phpBCL
- * @subpackage         : Core Class - Compatibilities Main Handler file
- * @source             : /phpBCL/src/coreCompatibilities.php
- * @version            : 1.1.3
- * @created            : 2013-12-31 23:59:59 GMT+2
- * @updated            : 2024-10-22 07:00:00 UTC+3
- * @author             : Drogidis Christos
- * @authorSite         : www.alexsoft.gr
+ * @package            	: ASCOOS OS - phpBCL
+ * @subpackage         	: Core Class - Compatibilities Main Handler file
+ * @source             	: /phpBCL/src/coreCompatibilities.php
+ * @description         : 
+ * @fileNo             	: 
+ * @version            	: 2.1.0
+ * @build               : 25
+ * @created            	: 2013-12-31 23:59:59 GMT+2
+ * @updated             : 2026-01-16 00:27:55 UTC+2
+ * @author             	: Drogidis Christos
+ * @authorSite         	: www.alexsoft.gr
+ * @support             : support@ascoos.com
+ * @license 			: AGL-F (Ascoos General License - Free)
+ * 
+ * @since PHP 5.6.40
  */
 
 
@@ -92,6 +101,7 @@ if (version_compare(PHP_VERSION, '8.2.0', '<')) require_once($phpBCL_path."/comp
 if (version_compare(PHP_VERSION, '8.3.0', '<')) require_once($phpBCL_path."/compat/compat_php83x.php");
 if (version_compare(PHP_VERSION, '8.4.0', '<')) require_once($phpBCL_path."/compat/compat_php84x.php");
 if (version_compare(PHP_VERSION, '8.5.0', '<')) require_once($phpBCL_path."/compat/compat_php85x.php");
+if (version_compare(PHP_VERSION, '8.6.0', '<')) require_once($phpBCL_path."/compat/compat_php86x.php");
 
 
 /*************************
@@ -100,10 +110,8 @@ if (version_compare(PHP_VERSION, '8.5.0', '<')) require_once($phpBCL_path."/comp
 require_once($phpBCL_path."/compat/compat_deprecated.php");
 
 
-/*******************************
- * SIMILAR CODE -- COMING SOON
- ******************************/
+/******************
+ * SIMILAR CODE
+ *****************/
 require_once($phpBCL_path."/compat/compat_similar.php");
-
-//unset($phpBCL_path);
 ?>

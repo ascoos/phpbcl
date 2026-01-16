@@ -1,5 +1,5 @@
 {
-    "name": "alexsoft-software/phpbcl",
+    "name": "ascoos/phpbcl",
     "description": "PHP Backwards Compatibility Library (phpBCL).",
     "keywords": ["ascoos", "ascoos-framework", "polyfill", "polyfills", "php-polyfill", "php-polyfills", "php", "php7", "php8", "libraries", "php-library", "backward", "backward-compatibility", "compatibility", "compat"],
     "license": "proprietary",
@@ -12,19 +12,19 @@
         }
     ],
     "support": {
-        "issues": "https://issues.ascoos.com",
-        "source": "https://github.com/alexsoft-software/phpbcl"
+        "issues": "https://github.com/ascoos/phpbcl/issues",
+        "source": "https://github.com/ascoos/phpbcl"
     },
     "repositories": [
         {
             "type": "package",
             "package": {
-                "name": "alexsoft-software/phpbcl",
-                "version": "2.0.5",
+                "name": "ascoos/phpbcl",
+                "version": "2.1.0",
                 "type": "library",
                 "distributors": [
                     {
-                        "url": "https://github.com/alexsoft-software/phpbcl/releases/download/2.0.5/phpbcl-2.0.5.zip",
+                        "url": "https://github.com/ascoos/phpbcl/releases/download/2.1.0/phpbcl-2.1.0.zip",
                         "type": "zip"
                     }                   
                 ]

@@ -21,7 +21,7 @@
  * @source             : /phpBCL/src/compat/compat_php80x.php
  * @version            : 1.1.3
  * @created            : 2023-06-22 07:00:00 UTC+3
- * @updated            : 2024-10-22 07:00:00 UTC+3
+ * @updated             : 2026-01-16 00:10:11 UTC+2
  * @author             : Drogidis Christos
  * @authorSite         : www.alexsoft.gr
  */
@@ -339,7 +339,8 @@ if (!class_exists('PhpToken'))
      * 
      * @return string   A textual content of the token. 
      */
-    public function __toString(){
+    public function __toString()
+    {
       return $this->text;
     }
     
