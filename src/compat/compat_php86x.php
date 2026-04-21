@@ -23,10 +23,10 @@
  * @source             	: /phpBCL/src/compat/compat_php86x.php
  * @description         : 
  * @fileNo             	: 
- * @version            	: 2.1.0
- * @build               : 27
+ * @version            	: 2.2.0
+ * @build               : 31
  * @created            	: 2026-01-15 20:00:00 UTC+2
- * @updated             : 2026-01-16 00:29:20 UTC+2
+ * @updated             : 2026-04-22 01:31:42 UTC+2
  * @author             	: Drogidis Christos
  * @authorSite         	: www.alexsoft.gr
  * @support             : support@ascoos.com
@@ -36,6 +36,17 @@
  * @since PHP 5.6.40
  */
 
+
+ /**
+ * If the constant [ ARRAY_FILTER_USE_VALUE ] does not exist then we create it.
+ * ++ 8.6.0 ---- https://php.watch/versions/8.6/array_filter_mode-param-ValueError
+ *
+ * @since 2.2.0
+ * @updated 2026-04-22 01:29:03
+ */
+if (!defined('ARRAY_FILTER_USE_VALUE')) {
+    define('ARRAY_FILTER_USE_VALUE', 0);
+}
 
 /**
  * If the function [ clamp ] does not exist then we create it.
@@ -79,5 +90,38 @@ if (!function_exists('clamp')) {
 
         return $value;
     }
+}
+
+
+/**
+ * If the enum [ SortDirection ] does not exist then we create it.
+ * ++ 8.6.0 ---- https://php.watch/versions/8.6/SortDirection
+ *
+ * @since 2.2.0
+ * @updated 2026-04-22 01:29:03
+ */
+if (!enum_exists('SortDirection')) {
+    enum SortDirection {
+        case Ascending;
+        case Descending;
+    }
+}
+
+
+/**
+ * If the function [ grapheme_strrev ] does not exist then we create it.
+ * ++ 8.6.0 ---- https://php.watch/versions/8.6/grapheme_strrev
+ *
+ * @since 2.2.0
+ * @updated 2026-04-22 01:29:03
+ */
+function grapheme_strrev($string)
+{
+    $units = grapheme_str_split($string);
+    if ($units === false) {
+        return false;
+    }
+
+    return implode('', array_reverse($units));
 }
 ?>
