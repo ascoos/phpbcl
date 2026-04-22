@@ -24,9 +24,9 @@
  * @description         : 
  * @fileNo             	: 
  * @version            	: 2.2.0
- * @build               : 31
+ * @build               : 41
  * @created            	: 2026-01-15 20:00:00 UTC+2
- * @updated             : 2026-04-22 01:31:42 UTC+2
+ * @updated             : 2026-04-22 02:09:39 UTC+2
  * @author             	: Drogidis Christos
  * @authorSite         	: www.alexsoft.gr
  * @support             : support@ascoos.com
@@ -115,13 +115,20 @@ if (!enum_exists('SortDirection')) {
  * @since 2.2.0
  * @updated 2026-04-22 01:29:03
  */
-function grapheme_strrev($string)
-{
-    $units = grapheme_str_split($string);
-    if ($units === false) {
-        return false;
-    }
+if (!function_exists('clamp')) {
+    /**
+     * Reverse a string by grapheme clusters.
+     * @param string $string The string to reverse
+     * @return string|false The reversed string, or false on failure
+    */
+    function grapheme_strrev($string)
+    {
+        $units = grapheme_str_split($string);
+        if ($units === false) {
+            return false;
+        }
 
-    return implode('', array_reverse($units));
+        return implode('', array_reverse($units));
+    }
 }
 ?>
