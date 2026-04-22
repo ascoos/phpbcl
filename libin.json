@@ -34,8 +34,8 @@
             "dependencies": [],
             "extras": [],
             "versions": {
-                "version": 20100,
-                "human_version": "2.1.0",
+                "version": 20200,
+                "human_version": "2.2.0",
                 "MinAscoosVersion": 10000,
                 "MaxAscoosVersion": -1,
                 "MinPHPVersion": 80300,

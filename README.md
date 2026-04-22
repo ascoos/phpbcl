@@ -1,4 +1,6 @@
-<p align="center"><img src="https://apps.ascoos.com/phpBCL/images/phpBCL_256px.png" height=256 /></p>
+![phpBCL Logo](https://apps.ascoos.com/phpBCL/images/phpBCL_256px.png)
+
+---
 
 # PHP Backwards Compatibility Library (phpBCL)
 
@@ -133,6 +135,9 @@ The contents of version-based files mean that since added to a specific PHP vers
 
 | A |    PHP   | phpBCL |   TYPE    |          NAME           |                DESCRIPTION
 |---|----------|--------|-----------|-------------------------|-----------------------------------------
+| + | < 8.6.0  | 2.2.0  | CONST     | `ARRAY_FILTER_USE_VALUE` | This constant is assigned value 0, which is the same as the default value for the $mode parameter.
+| + | < 8.6.0  | 2.2.0  | Enum      | `SortDirection`         | The new SortDirection Enum is a Unit Enum, which means the individual elements of the Enum do not have a scalar value such as ASC or DESC backing them.
+| + | < 8.6.0  | 2.2.0  | Function  | `grapheme_strrev`       | Reverse a string by grapheme clusters.
 | + | < 8.6.0  | 2.1.0  | Function  | `clamp`                 | Returns the value clamped between min and max (nearest bound if out of range). Throws ValueError on invalid args (NAN, min > max). |
 | + | < 8.5.0  | 2.0.4  | Function  | `array_first.php`       | Returns the first value of a given array.
 | + | < 8.5.0  | 2.0.4  | Function  | `array_last.php`        | Returns the last value of a given array.

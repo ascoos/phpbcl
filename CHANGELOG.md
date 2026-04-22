@@ -1,5 +1,18 @@
 # Changelog
 
+## 2.2.0 [2026-04-22]
+
+### PHP < 8.6
+- Added constant `ARRAY_FILTER_USE_VALUE`: This constant is assigned value 0, which is the same as the default value for the $mode parameter. 
+- Added function `grapheme_strrev` : reverses the order of a string in grapheme units. 
+- Added enum `SortDirection` : The new SortDirection Enum is a Unit Enum, which means the individual elements of the Enum do not have a scalar value such as ASC or DESC backing them. 
+
+### *phpbcl Examples*
+- Added example file `86_enum_sortdirection.php` : PHP applications that need to use the new SortDirection Enum can define it as a type. When a backed value is needed, consider using a match expression.
+- Added example file `86_enum_sortdirection.php` : Reverse a string by grapheme clusters.
+
+---
+
 ## 2.1.0 [2026-01-16]
 
 - Fix `composer.json`

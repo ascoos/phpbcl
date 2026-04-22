@@ -20,11 +20,11 @@
             "type": "package",
             "package": {
                 "name": "ascoos/phpbcl",
-                "version": "2.1.0",
+                "version": "2.2.0",
                 "type": "library",
                 "distributors": [
                     {
-                        "url": "https://github.com/ascoos/phpbcl/releases/download/2.1.0/phpbcl-2.1.0.zip",
+                        "url": "https://github.com/ascoos/phpbcl/releases/download/2.2.0/phpbcl-2.2.0.zip",
                         "type": "zip"
                     }                   
                 ]
