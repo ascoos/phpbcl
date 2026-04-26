@@ -115,7 +115,7 @@ if (!enum_exists('SortDirection')) {
  * @since 2.2.0
  * @updated 2026-04-22 01:29:03
  */
-if (!function_exists('clamp')) {
+if (!function_exists('grapheme_strrev')) {
     /**
      * Reverse a string by grapheme clusters.
      * @param string $string The string to reverse
